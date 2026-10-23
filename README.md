@@ -47,4 +47,4 @@ their way to a store.
 Kotlin · Flutter · TypeScript · Node.js · React · Next.js · PostgreSQL ·
 Redis · MongoDB · Docker
 
-[zroit.com](https://zroit.com) · [YouTube](https://www.youtube.com/@zroitx) · [X](https://x.com/zroitx) · [Facebook](https://www.facebook.com/zroitx) · [Devpost](https://devpost.com/zroit)
+[zroit.com](https://zroit.com) · [YouTube](https://www.youtube.com/@zroitx) · [X](https://x.com/zroitx) · [Facebook](https://www.facebook.com/zroitx) · [Discord](https://discord.gg/2GtbmqKjqN) · [Devpost](https://devpost.com/zroit)
