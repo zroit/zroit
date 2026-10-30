@@ -1,50 +1,63 @@
 <img alt="ZroIT, zroit.com" src="assets/zroit-banner.svg" width="100%">
 
-**Systems that run for real users.** Secure Android apps, SaaS backends,
-operations platforms and AI agents: designed, built with AI, tested, and run
-in production.
+**Apps, web and systems, built end to end.** ZroIT designs, builds and runs
+mobile apps, web platforms and the systems behind them, for internet
+providers, offices, agencies and shops.
 
-### What we build
+### Our apps
 
-- **Secure mobile apps**: keys that stay on the device, hardware-backed key
-  storage, attestation verified on the server, encrypted sync the server
-  cannot read.
-- **SaaS backends and operations platforms**: role-based access, audit logs,
-  double-entry ledgers, client portals, rate limits.
-- **AI agents with guardrails**: tool registries, MCP servers, and risky
-  commands stopped before they run.
-- **Protocol work when no library fits**: the ADB wire protocol, a TLS 1.3
-  client with the RFC 5705 exporter, SPAKE2 pairing.
+Each one goes deeper than a usual app: its own protocols, its own security,
+its own tests.
 
-### Selected work
+- **[Terus](https://zroit.com/apps/terus)**: SSH that survives anything.<br>
+  A terminal for your servers with a zero-knowledge vault. Keys live in the
+  phone's hardware, sessions come back after a dropped network, and risky
+  agent commands are stopped before they run. *Coming to Google Play.*
+- **[QUEMR](https://zroit.com/apps/quemr)**: your phone, inside the headset.<br>
+  Mirror and fully control an Android phone from a Meta Quest 3 over local
+  Wi-Fi. Nothing to install on the phone. *Coming to the Meta Store.*
+- **[Telvo](https://zroit.com/apps/telvo)**: your TV, cleaned up from your phone.<br>
+  Turn off the clutter, set a new home screen and use the phone as the
+  remote, with the door camera on screen when someone arrives. No computer,
+  no terminal: just the phone. *Coming soon.*
 
-Most of our repositories are private: client systems, and products still on
-their way to a store.
+### Your business, as software
 
-- **Terus** · *in daily use, Google Play coming*<br>
-  Android SSH client: a zero-knowledge vault, terminal sessions that survive
-  a dropped network or a reboot, and a guarded auto-yes for AI coding agents.
-- **QUEMR** · *preparing for the Meta Store*<br>
-  Meta Quest 3 app that mirrors and fully controls a phone over Wi-Fi, with
-  nothing installed on the phone.
-- **[DayLoop](https://github.com/zroit/dayloop)** · *Amazon Developer Hackathon 2026*<br>
-  Alexa+ agent that keeps your promises when the day breaks: 19 tools, a
-  promise ledger and an MCP server.
+One core, a system of your own: each business gets its own system on the
+same core, with the parts it needs switched on and its data kept its own.
+Every one comes with its web side and its apps.
 
-### How we work
+- **Agencies and offices**: the team, the clients and the money in one
+  system, with one login and one set of permissions.
+- **Online shops**: store front, orders, stock and customers on the same
+  base as the office side.
+- **Internet providers**: apps for subscribers and resellers, the control
+  panel, billing, support that sees outages, and a log server. One codebase
+  serves many providers, each with its own name, colours and signed app.
+- **Your business**: people, work, money and documents ready on day one,
+  and what makes your business different built on top.
 
-- **Security first**: on-device encryption, access control, audit logs, and a
-  dependency audit before every build.
-- **Tested**: Terus runs 2,800+ tests and QUEMR 330, all green before a build
-  ships.
-- **Written down**: a design spec and a plan before the code; numbers instead
-  of claims.
-- **Built with AI**: Claude Code writes most of the code; we direct it, check
-  it and ship it.
+### How a project runs
+
+1. **A call about how you work**: your team, your tools today, and what
+   slows you down.
+2. **A written plan**: what gets built, in what order.
+3. **Built with tests**: working pieces to try along the way.
+4. **Shipped and kept running**: deployed, monitored, backed up and handed
+   over, on Ubuntu servers managed day to day.
+
+### Open source
+
+- **[DayLoop](https://github.com/zroit/dayloop)**: an Alexa+ agent with an
+  MCP server, made for the Amazon Developer Hackathon 2026.
 
 ### Stack
 
-Kotlin · Flutter · TypeScript · Node.js · React · Next.js · PostgreSQL ·
-Redis · MongoDB · Docker
+Kotlin, Flutter, TypeScript, Node.js, React, Next.js, PostgreSQL, Redis,
+MongoDB, Docker, Ubuntu
 
-[zroit.com](https://zroit.com) · [YouTube](https://www.youtube.com/@zroitx) · [X](https://x.com/zroitx) · [Facebook](https://www.facebook.com/zroitx) · [Discord](https://discord.gg/2GtbmqKjqN) · [Devpost](https://devpost.com/zroit)
+---
+
+**[zroit.com](https://zroit.com)** | [connect@zroit.com](mailto:connect@zroit.com) |
+[X](https://x.com/zroitx) | [YouTube](https://www.youtube.com/@zroitx) |
+[Facebook](https://www.facebook.com/zroitx)
